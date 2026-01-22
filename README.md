@@ -62,9 +62,6 @@ Data analysis project exploring behavioral and physiological indicators linked t
 🔹 Customer Sales Dashboard
 Interactive Tableau dashboard analyzing sales performance, trends, and customer behavior.
 
-🔹 Stock Risk Analysis
-Time-series and risk-focused analysis exploring volatility and financial indicators.
-
 📌 Each project includes problem context, methodology, tools used, and insights.
 
 **🎯 What I’m Looking For**
