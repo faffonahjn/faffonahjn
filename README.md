@@ -16,7 +16,7 @@ My anchor project: an end-to-end ML pipeline analyzing health facility competenc
 
 | Layer | Tools |
 |---|---|
-| **Languages** | Python · SQL |
+| **Languages** | Python · SQL · R |
 | **ML & Analysis** | Scikit-learn · Pandas · NumPy · Statsmodels |
 | **Deployment** | FastAPI · Docker · Azure |
 | **Visualization** | Tableau · Power BI · Matplotlib · Seaborn |
