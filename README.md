@@ -1,81 +1,82 @@
-**👋 Hi, I’m Francis Affonah**
+# Francis Affonah
+**Data Scientist · Healthcare Analytics · ML Engineering**
 
-Data Scientist & Data Analyst with hands-on experience in machine learning, statistical analysis, SQL-driven analytics, and business-facing dashboards. I work at the intersection of data science and analytics—building predictive models and delivering clear, actionable insights for decision-making.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Francis_Affonah-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/francis-affonah-23745a205/)
+[![GitHub](https://img.shields.io/badge/GitHub-faffonahjn-181717?style=flat&logo=github)](https://github.com/faffonahjn)
 
-I have applied data science techniques across healthcare, business, and risk-focused domains, and I am particularly interested in roles where modeling, analysis, and stakeholder communication come together.
+---
 
-**🔍 What I Do**
+Registered nurse turned data scientist. I work at the intersection of clinical domain expertise and production machine learning — building systems that don't just model health outcomes, but reflect how care actually works.
 
-Build machine learning and statistical models for prediction and risk analysis
+My anchor project: an end-to-end ML pipeline analyzing health facility competency across **5,000+ facilities in multiple countries** using World Bank Service Delivery Indicators (SDI) data, deployed on **Azure** with **FastAPI** and **Docker**. Clinical context embedded from the ground up.
 
-Perform end-to-end data analysis using SQL and Python
+---
 
-Design dashboards and reports that translate data into business insight
+## Core Stack
 
-Clean, validate, and structure messy real-world datasets
+| Layer | Tools |
+|---|---|
+| **Languages** | Python · SQL |
+| **ML & Analysis** | Scikit-learn · Pandas · NumPy · Statsmodels |
+| **Deployment** | FastAPI · Docker · Azure |
+| **Visualization** | Tableau · Power BI · Matplotlib · Seaborn |
+| **Workflow** | Git · GitHub · Jupyter |
 
-Apply analytics to healthcare, sales, and operational problems
+---
 
-**🧠 Core Skills**
+## Selected Projects
 
-***Data Science & ML***
+### 🏥 SDI Health Facility ML Pipeline *(Flagship)*
+End-to-end pipeline classifying health facility competency gaps across 5,000+ facilities in Sub-Saharan Africa using World Bank SDI data. Production-deployed on Azure with FastAPI REST API and Docker containerization. Covers data ingestion, feature engineering, model training, evaluation, and serving.
 
-Supervised learning (classification, regression)
+`Python` `Scikit-learn` `FastAPI` `Docker` `Azure` `Pandas`
 
-Feature engineering & model evaluation
+---
 
-Statistical analysis & hypothesis testing
+### ❤️ Heart Disease Risk Prediction
+Clinical classification model predicting cardiovascular risk from patient-level features. Emphasis on model interpretability alongside predictive performance — built for clinical utility, not just accuracy metrics.
 
-Risk prediction & healthcare analytics
+`Python` `Scikit-learn` `Feature Engineering` `Model Evaluation`
 
-***Data Analytics***
+---
 
-SQL (joins, aggregations, subqueries)
+### 🧠 Stroke Risk Prediction
+Full analytics lifecycle: raw clinical data → preprocessing → EDA → predictive model. Documents clinical reasoning behind feature selection decisions.
 
-Python (Pandas, NumPy, Scikit-learn)
+`Python` `EDA` `Classification` `Healthcare Analytics`
 
-Data cleaning & exploratory analysis (EDA)
+---
 
-KPI tracking & insight generation
+### 📊 Customer Sales Performance Dashboard
+Interactive Tableau dashboard surfacing sales trends, customer segmentation, and KPI performance for business stakeholders.
 
-***Visualization & Tools***
+`Tableau` `SQL` `Business Analytics`
 
-Tableau
+---
 
-Power BI
+### 📈 Stress Pattern Analysis
+Behavioral and physiological indicator analysis linking data patterns to stress outcomes. Exploratory and statistical in nature.
 
-Excel (advanced functions, pivots)
+`Python` `Statistical Analysis` `EDA`
 
-Git & GitHub
+---
 
-**📁 Selected Projects**
+## Background
 
-🔹 Heart Disease Prediction
-Machine learning model to predict cardiovascular risk using clinical features, with performance evaluation and interpretability.
+I came to data science from nursing — which means I read clinical datasets differently. I understand what an abnormal lab value means before it becomes a feature, what care delivery constraints look like before they appear in operational data, and why health equity isn't just a keyword but a modeling decision.
 
-🔹 Stroke Risk Prediction
-End-to-end healthcare analytics project combining data preprocessing, feature analysis, and predictive modeling.
+That clinical grounding shapes how I build: interpretable models over black boxes where it matters, domain-aware feature engineering, and outputs designed for people who make care decisions — not just people who read dashboards.
 
-🔹 Stress Monitoring Analysis
-Data analysis project exploring behavioral and physiological indicators linked to stress patterns.
+Currently deepening expertise in **Azure Data Engineering**, **TensorFlow**, and **medical imaging analytics (Computer Vision)**.
 
-🔹 Customer Sales Dashboard
-Interactive Tableau dashboard analyzing sales performance, trends, and customer behavior.
+---
 
-📌 Each project includes problem context, methodology, tools used, and insights.
+## Certifications
 
-**🎯 What I’m Looking For**
+- IBM Data Science Professional Certificate
+- Clinical Data Science Certificate
+- Registered Nurse Certificate
 
-Entry-level Data Scientist roles
+---
 
-Data Analyst roles with strong analytical depth
-
-Internships or junior roles in healthcare, business, or product analytics
-
-Remote or globally distributed teams
-
-📫 Let’s Connect
-
-GitHub: https://github.com/faffonahjn
-
-LinkedIn: https://www.linkedin.com/in/francis-affonah-23745a205/
+*Open to health data science roles, healthcare analytics positions, and collaborations at the intersection of clinical domain and ML engineering.*
