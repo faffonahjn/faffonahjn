@@ -3,12 +3,13 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Francis_Affonah-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/francis-affonah-23745a205/)
 [![GitHub](https://img.shields.io/badge/GitHub-faffonahjn-181717?style=flat&logo=github)](https://github.com/faffonahjn)
+[![Live API](https://img.shields.io/badge/Live%20API-Azure%20Deployed-success?style=flat&logo=microsoftazure)](https://insurance-risk-api.redsand-37d94e81.eastus.azurecontainerapps.io/docs)
 
 ---
 
 Registered nurse turned data scientist. I work at the intersection of clinical domain expertise and production machine learning — building systems that don't just model health outcomes, but reflect how care actually works.
 
-My anchor project: an end-to-end ML pipeline analyzing health facility competency across **5,000+ facilities in multiple countries** using World Bank Service Delivery Indicators (SDI) data, deployed on **Azure** with **FastAPI** and **Docker**. Clinical context embedded from the ground up.
+My anchor project: an end-to-end ML pipeline analyzing health facility competency across **5,000+ facilities in 10 African countries** using World Bank Service Delivery Indicators (SDI) data, deployed on **Azure** with **FastAPI** and **Docker**. Clinical context embedded from the ground up.
 
 ---
 
@@ -17,19 +18,30 @@ My anchor project: an end-to-end ML pipeline analyzing health facility competenc
 | Layer | Tools |
 |---|---|
 | **Languages** | Python · SQL · R |
-| **ML & Analysis** | Scikit-learn · Pandas · NumPy · Statsmodels |
-| **Deployment** | FastAPI · Docker · Azure |
-| **Visualization** | Tableau · Power BI · Matplotlib · Seaborn |
-| **Workflow** | Git · GitHub · Jupyter |
+| **ML & Analysis** | XGBoost · Scikit-learn · Pandas · NumPy · Statsmodels |
+| **Deployment** | FastAPI · Docker · Azure Container Apps |
+| **Visualization** | Tableau · Power BI · Matplotlib · Seaborn · Streamlit |
+| **Workflow** | Git · GitHub · Jupyter · MLflow |
 
 ---
 
 ## Selected Projects
 
-### 🏥 SDI Health Facility ML Pipeline *(Flagship)*
-End-to-end pipeline classifying health facility competency gaps across 5,000+ facilities in Sub-Saharan Africa using World Bank SDI data. Production-deployed on Azure with FastAPI REST API and Docker containerization. Covers data ingestion, feature engineering, model training, evaluation, and serving.
+### 🏦 Medical Insurance Risk Classifier *(Live on Azure)*
+Production ML system predicting high-cost insurance patients from demographic and lifestyle features. Includes full **data leakage forensic audit**, clinically motivated target engineering (charges > P75), SHAP explainability, threshold sensitivity analysis, and a 4-tab Streamlit clinical dashboard. Deployed publicly on **Azure Container Apps**.
 
-`Python` `Scikit-learn` `FastAPI` `Docker` `Azure` `Pandas`
+**Test AUC: 0.899 | Sensitivity: 76.1% | Specificity: 95.5% | 21 tests passing**
+
+[**Live API →**](https://insurance-risk-api.redsand-37d94e81.eastus.azurecontainerapps.io/docs)
+
+`Python` `XGBoost` `FastAPI` `Streamlit` `Docker` `Azure Container Apps` `SHAP`
+
+---
+
+### 🏥 SDI Health Facility ML Pipeline *(Flagship)*
+End-to-end pipeline classifying health facility competency gaps across **5,000+ facilities in 10 African countries** using World Bank SDI data. Production-ready with FastAPI REST API and Docker containerization. Covers data ingestion, feature engineering, model training, evaluation, and serving.
+
+`Python` `Scikit-learn` `FastAPI` `Docker` `Pandas`
 
 ---
 
@@ -80,3 +92,5 @@ Currently deepening expertise in **Azure Data Engineering**, **TensorFlow**, and
 ---
 
 *Open to health data science roles, healthcare analytics positions, and collaborations at the intersection of clinical domain and ML engineering.*
+
+> *"So built we the wall... for the people had a mind to work."* — Nehemiah 4:6
