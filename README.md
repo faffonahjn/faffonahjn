@@ -7,9 +7,9 @@
 
 ---
 
-Registered nurse turned data scientist. I work at the intersection of clinical domain expertise and production machine learning — building systems that don't just model health outcomes, but reflect how care actually works.
+Registered nurse turned data scientist. I work at the intersection of clinical domain expertise and production machine learning building systems that don't just model health outcomes, but reflect how care actually works.
 
-My anchor project: an end-to-end ML pipeline analyzing health facility competency across **5,000+ facilities in 10 African countries** using World Bank Service Delivery Indicators (SDI) data, deployed on **Azure** with **FastAPI** and **Docker**. Clinical context embedded from the ground up.
+My anchor project: a **Medical Insurance Risk Classifier** deployed live on **Azure Container Apps** — full production ML pipeline from data leakage forensic audit through XGBoost training, FastAPI serving, Streamlit clinical dashboard, Docker containerization, and 21 automated tests. The most important engineering decision wasn't the model — it was rejecting a perfect AUC of 1.0.
 
 ---
 
@@ -18,8 +18,8 @@ My anchor project: an end-to-end ML pipeline analyzing health facility competenc
 | Layer | Tools |
 |---|---|
 | **Languages** | Python · SQL · R |
-| **ML & Analysis** | XGBoost · Scikit-learn · Pandas · NumPy · Statsmodels |
-| **Deployment** | FastAPI · Docker · Azure Container Apps |
+| **ML & Analysis** | XGBoost · Scikit-learn · Pandas · NumPy · Statsmodels · SHAP |
+| **Deployment** | FastAPI · Docker · Azure Container Apps · MLOps |
 | **Visualization** | Tableau · Power BI · Matplotlib · Seaborn · Streamlit |
 | **Workflow** | Git · GitHub · Jupyter · MLflow |
 
@@ -28,7 +28,7 @@ My anchor project: an end-to-end ML pipeline analyzing health facility competenc
 ## Selected Projects
 
 ### 🏦 Medical Insurance Risk Classifier *(Live on Azure)*
-Production ML system predicting high-cost insurance patients from demographic and lifestyle features. Includes full **data leakage forensic audit**, clinically motivated target engineering (charges > P75), SHAP explainability, threshold sensitivity analysis, and a 4-tab Streamlit clinical dashboard. Deployed publicly on **Azure Container Apps**.
+Production ML system predicting high-cost insurance patients (charges > P75) from demographic and lifestyle features. Includes full **data leakage forensic audit** caught a 100% deterministic target rule (AUC 1.0), rebuilt label with actuarial intent, yielding defensible AUC of 0.899. SHAP explainability, threshold sensitivity analysis, and a 4-tab Streamlit clinical dashboard. Deployed publicly on **Azure Container Apps**.
 
 **Test AUC: 0.899 | Sensitivity: 76.1% | Specificity: 95.5% | 21 tests passing**
 
@@ -38,15 +38,24 @@ Production ML system predicting high-cost insurance patients from demographic an
 
 ---
 
-### 🏥 SDI Health Facility ML Pipeline *(Flagship)*
-End-to-end pipeline classifying health facility competency gaps across **5,000+ facilities in 10 African countries** using World Bank SDI data. Production-ready with FastAPI REST API and Docker containerization. Covers data ingestion, feature engineering, model training, evaluation, and serving.
+### 🧬 Fertility Outcome Classifier *(Production ML)*
+End-to-end clinical ML system predicting pregnancy success from couples' health, lifestyle, and treatment features. Key engineering decisions: **informative NaN strategy** (Treatment_Type and Alcohol_Intake nulls domain-filled rather than statistically imputed), **Female_Age × Motility interaction feature** (age-adjusted reproductive potential), and **threshold tuned to 0.40** for Failure class recall — missing a high-risk couple closes the treatment window. FastAPI REST API, 4-tab Streamlit dashboard, Docker Compose, 24-test suite.
 
-`Python` `Scikit-learn` `FastAPI` `Docker` `Pandas`
+**Test AUC: 0.950 | Avg Precision: 0.980 | 24 tests passing**
+
+`Python` `XGBoost` `FastAPI` `Streamlit` `Docker` `SHAP` `Clinical Feature Engineering`
+
+---
+
+### 🏥 SDI Health Facility ML Pipeline
+End-to-end pipeline classifying health facility competency gaps across **5,000+ facilities in 10 African countries** using World Bank SDI data. Identified maternal health crisis: 5-6% competency in emergency obstetric care. Generated 18 evidence-based policy recommendations for governments and international partners.
+
+`Python` `Scikit-learn` `FastAPI` `Docker` `Pandas` `Public Health Analytics`
 
 ---
 
 ### ❤️ Heart Disease Risk Prediction
-Clinical classification model predicting cardiovascular risk from patient-level features. Emphasis on model interpretability alongside predictive performance — built for clinical utility, not just accuracy metrics.
+Clinical classification model predicting cardiovascular risk from patient-level features. Emphasis on model interpretability alongside predictive performance built for clinical utility, not just accuracy metrics.
 
 `Python` `Scikit-learn` `Feature Engineering` `Model Evaluation`
 
@@ -77,7 +86,7 @@ Behavioral and physiological indicator analysis linking data patterns to stress 
 
 I came to data science from nursing — which means I read clinical datasets differently. I understand what an abnormal lab value means before it becomes a feature, what care delivery constraints look like before they appear in operational data, and why health equity isn't just a keyword but a modeling decision.
 
-That clinical grounding shapes how I build: interpretable models over black boxes where it matters, domain-aware feature engineering, and outputs designed for people who make care decisions — not just people who read dashboards.
+That clinical grounding shapes how I build: interpretable models over black boxes where it matters, domain-aware feature engineering, and outputs designed for people who make care decisions not just people who read dashboards.
 
 Currently deepening expertise in **Azure Data Engineering**, **TensorFlow**, and **medical imaging analytics (Computer Vision)**.
 
